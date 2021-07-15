@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		678F181326A00144002AAE97 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 678F181226A00144002AAE97 /* main.cpp */; };
+		678F182126A0324F002AAE97 /* BOARDCOVER.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 678F182026A0324F002AAE97 /* BOARDCOVER.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		678F180F26A00144002AAE97 /* AALGGO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AALGGO; sourceTree = BUILT_PRODUCTS_DIR; };
 		678F181226A00144002AAE97 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		678F181926A0041C002AAE97 /* sopung.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sopung.cpp; sourceTree = "<group>"; };
+		678F182026A0324F002AAE97 /* BOARDCOVER.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOARDCOVER.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				678F181226A00144002AAE97 /* main.cpp */,
+				678F181926A0041C002AAE97 /* sopung.cpp */,
+				678F182026A0324F002AAE97 /* BOARDCOVER.cpp */,
 			);
 			path = AALGGO;
 			sourceTree = "<group>";
@@ -118,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				678F181326A00144002AAE97 /* main.cpp in Sources */,
+				678F182126A0324F002AAE97 /* BOARDCOVER.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
