@@ -6,14 +6,14 @@
 //
 
 #include <iostream>
-#include <fstream>
+//#include <fstream>
 
 using namespace std;
 int N, couple;
 bool friends[10][10];
 
 
-ifstream fin("test_sopung.txt");
+//ifstream fin("test_sopung.txt");
 
 int factorial(int a){
     if(a == 1 || a == 0)
@@ -59,21 +59,20 @@ int check(bool arr[]){
 
 int main(int argc, const char * argv[]) {
     int Test_case;
-    fin >> Test_case;
-    cout << "Test_Case : " << Test_case << endl;
+    cin >> Test_case;
     for (int i=0; i< Test_case ; i++){
-        fin >> N >> couple;
+        cin >> N >> couple;
         int x,y;
         bool exist_friend[10]={false,};
         reset_friend();
             
         for(int i=0; i<couple; i=i+1){
-            fin >> x >> y;
+            cin >> x >> y;
             friends[x][y] = true;
             friends[y][x] = true;
         }
         int ret = check(exist_friend);
-        cout<< "test_case # "<< i+1 << " : " << ret << endl;
+        cout<< ret << endl;
     }
      
     return 0;

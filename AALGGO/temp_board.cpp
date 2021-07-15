@@ -20,7 +20,7 @@ const int cover[4][3][2] ={
 };
 // first ( x,y ) ( x+1,y ) ( x+1,y+1)
 
-bool set(vector<vector <int > >& board, int x, int y , int type, int delta){
+bool set(vector<vector <int > >& board, int x, int y , int type){
     bool ok = true;
     for(int i=0; i< 3; i++){
         const int temp_x = x + cover[type][i][1];
@@ -28,7 +28,7 @@ bool set(vector<vector <int > >& board, int x, int y , int type, int delta){
         if( temp_y <0 || temp_y >=board.size() || temp_x<0 || temp_x >= board[0].size() ){
             ok = false;
         }
-        else if((board[temp_y][temp_x] +=delta ) > 1){
+        else if(board[temp_y][temp_x] == 1){
             ok = false;
         }
     }
@@ -69,10 +69,12 @@ int boardcover (vector<vector <int> >& board){
     }
     int ret=0;
     for(int i=0; i<4; i++){
-        if(set(board, x, y, i,1)){
+        if(set(board, x, y, i)){
+            set_1(board,x,y,i);
             ret+= boardcover(board);
+            reset(board, x,y,i);
         }
-        set(board, x,y,i,-1);
+        
     }
     return ret;
 }
