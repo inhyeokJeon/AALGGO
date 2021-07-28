@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6789940726B1B1AF00181665 /* fence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6789940626B1B1AF00181665 /* fence.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		678F180D26A00144002AAE97 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		676BE15E26A92D8500D1E711 /* quad_Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quad_Tree.cpp; sourceTree = "<group>"; };
+		6789940626B1B1AF00181665 /* fence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fence.cpp; sourceTree = "<group>"; };
 		678F180F26A00144002AAE97 /* AALGGO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AALGGO; sourceTree = BUILT_PRODUCTS_DIR; };
 		678F181226A00144002AAE97 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		678F181926A0041C002AAE97 /* sopung.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sopung.cpp; sourceTree = "<group>"; };
@@ -43,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				676BE15E26A92D8500D1E711 /* quad_Tree.cpp */,
+				6789940626B1B1AF00181665 /* fence.cpp */,
 			);
 			path = DivideAndCconquer;
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6789940726B1B1AF00181665 /* fence.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
