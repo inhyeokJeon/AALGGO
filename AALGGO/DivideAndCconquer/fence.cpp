@@ -14,7 +14,6 @@ using namespace std;
 ifstream fin("fence.txt");
 int N;
 vector<int> vec;
-
 int fence(int left, int right){
     if(left == right) return vec[left];
     int mid = (left+right)/2;
@@ -41,16 +40,17 @@ int fence(int left, int right){
 int main(int argc, const char * argv[]) {
     int Test_case;
     fin >> Test_case;
-    int temp;
+    
     
     for (int i=0; i< Test_case ; i++){
         fin >> N;
-        vec.clear();
         for(int i=0; i< N; i++){
+            int temp;
             fin >> temp;
             vec.push_back(temp);
         }
-        cout << fence(0, N) << endl;
+        cout << fence(0, N-1) << endl;
+        vec.clear();
     }
     return 0;
 }

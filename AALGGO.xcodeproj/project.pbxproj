@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6789940726B1B1AF00181665 /* fence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6789940626B1B1AF00181665 /* fence.cpp */; };
+		6789940826B2844E00181665 /* fence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6789940626B1B1AF00181665 /* fence.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -146,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6789940726B1B1AF00181665 /* fence.cpp in Sources */,
+				6789940826B2844E00181665 /* fence.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
