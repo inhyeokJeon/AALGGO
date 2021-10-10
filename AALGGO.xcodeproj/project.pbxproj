@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		677D944326E6E13B00805867 /* fence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6789940626B1B1AF00181665 /* fence.cpp */; };
+		67AFDB422712A01F000129B1 /* KLIS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67AFDB412712A01F000129B1 /* KLIS.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6732C98C270AFD3F003F1DCA /* NUMB3RS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NUMB3RS.cpp; sourceTree = "<group>"; };
+		6732C98E270B35EC003F1DCA /* PACKING.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PACKING.cpp; sourceTree = "<group>"; };
+		673403CE26F0464D0024D6E8 /* wildcard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wildcard.cpp; sourceTree = "<group>"; };
+		673403D026F0E8750024D6E8 /* wildcard_dp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wildcard_dp.cpp; sourceTree = "<group>"; };
+		673403D226F1FA930024D6E8 /* LIS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LIS.cpp; sourceTree = "<group>"; };
 		676BE15E26A92D8500D1E711 /* quad_Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quad_Tree.cpp; sourceTree = "<group>"; };
 		677D944126E6279100805867 /* fanmeeting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fanmeeting.cpp; sourceTree = "<group>"; };
 		6789940626B1B1AF00181665 /* fence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fence.cpp; sourceTree = "<group>"; };
@@ -31,7 +36,17 @@
 		678F181926A0041C002AAE97 /* sopung.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sopung.cpp; sourceTree = "<group>"; };
 		678F182026A0324F002AAE97 /* BOARDCOVER.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOARDCOVER.cpp; sourceTree = "<group>"; };
 		678F182426A08686002AAE97 /* temp_board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = temp_board.cpp; sourceTree = "<group>"; };
+		6791ADDB26F9A50F00488569 /* PI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PI.cpp; sourceTree = "<group>"; };
+		67968E5127027AF9005BD468 /* TILING2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TILING2.cpp; sourceTree = "<group>"; };
+		67968E5327028979005BD468 /* TRIPATHCNT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TRIPATHCNT.cpp; sourceTree = "<group>"; };
+		67968E5527029BBC005BD468 /* SNAIL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SNAIL.cpp; sourceTree = "<group>"; };
+		67968E572702A15B005BD468 /* ASYMTILING.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ASYMTILING.cpp; sourceTree = "<group>"; };
+		67968E5D270312F4005BD468 /* POLY.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = POLY.cpp; sourceTree = "<group>"; };
+		679F564926FC8750005E632C /* QUANTIZE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QUANTIZE.cpp; sourceTree = "<group>"; };
+		67AFDB3C2711B5FC000129B1 /* OCR.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OCR.cpp; sourceTree = "<group>"; };
+		67AFDB412712A01F000129B1 /* KLIS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KLIS.cpp; sourceTree = "<group>"; };
 		67C60F5F26A1468F00AD0077 /* clocksync.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = clocksync.cpp; sourceTree = "<group>"; };
+		67D082F426F981BC00B710C9 /* JLIS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JLIS.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +60,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		673403CC26F045490024D6E8 /* DP */ = {
+			isa = PBXGroup;
+			children = (
+				673403CE26F0464D0024D6E8 /* wildcard.cpp */,
+				673403D026F0E8750024D6E8 /* wildcard_dp.cpp */,
+				673403D226F1FA930024D6E8 /* LIS.cpp */,
+				67D082F426F981BC00B710C9 /* JLIS.cpp */,
+				6791ADDB26F9A50F00488569 /* PI.cpp */,
+				679F564926FC8750005E632C /* QUANTIZE.cpp */,
+				67968E5127027AF9005BD468 /* TILING2.cpp */,
+				67968E5327028979005BD468 /* TRIPATHCNT.cpp */,
+				67968E5527029BBC005BD468 /* SNAIL.cpp */,
+				67968E572702A15B005BD468 /* ASYMTILING.cpp */,
+				67968E5D270312F4005BD468 /* POLY.cpp */,
+				6732C98C270AFD3F003F1DCA /* NUMB3RS.cpp */,
+				6732C98E270B35EC003F1DCA /* PACKING.cpp */,
+				67AFDB3C2711B5FC000129B1 /* OCR.cpp */,
+				67AFDB412712A01F000129B1 /* KLIS.cpp */,
+			);
+			path = DP;
+			sourceTree = "<group>";
+		};
+		673403CD26F0456C0024D6E8 /* input */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = input;
+			sourceTree = "<group>";
+		};
 		676BE15D26A92D5700D1E711 /* DivideAndCconquer */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +118,8 @@
 		678F181126A00144002AAE97 /* AALGGO */ = {
 			isa = PBXGroup;
 			children = (
+				673403CD26F0456C0024D6E8 /* input */,
+				673403CC26F045490024D6E8 /* DP */,
 				676BE15D26A92D5700D1E711 /* DivideAndCconquer */,
 				67C60F5C26A145FC00AD0077 /* brute */,
 				678F181226A00144002AAE97 /* main.cpp */,
@@ -118,7 +164,7 @@
 		678F180726A00144002AAE97 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					678F180E26A00144002AAE97 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -148,7 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				677D944326E6E13B00805867 /* fence.cpp in Sources */,
+				67AFDB422712A01F000129B1 /* KLIS.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +315,7 @@
 		678F181726A00144002AAE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -277,6 +324,7 @@
 		678F181826A00144002AAE97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
