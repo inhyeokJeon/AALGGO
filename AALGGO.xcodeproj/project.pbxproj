@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		67AFDB422712A01F000129B1 /* KLIS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67AFDB412712A01F000129B1 /* KLIS.cpp */; };
+		67B0677D271BAC03004808BB /* GENIUS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67B067782717E5F5004808BB /* GENIUS.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +45,15 @@
 		679F564926FC8750005E632C /* QUANTIZE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QUANTIZE.cpp; sourceTree = "<group>"; };
 		67AFDB3C2711B5FC000129B1 /* OCR.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OCR.cpp; sourceTree = "<group>"; };
 		67AFDB412712A01F000129B1 /* KLIS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KLIS.cpp; sourceTree = "<group>"; };
+		67AFDB432714543B000129B1 /* DRAGON.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DRAGON.cpp; sourceTree = "<group>"; };
+		67AFDB4527146490000129B1 /* ZIMBABWE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZIMBABWE.cpp; sourceTree = "<group>"; };
+		67AFDB4727147AAB000129B1 /* RESTORE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RESTORE.cpp; sourceTree = "<group>"; };
+		67AFDB4A27156E73000129B1 /* TICTACTOE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TICTACTOE.cpp; sourceTree = "<group>"; };
+		67AFDB4C2715BCE7000129B1 /* NUMBERGAME.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NUMBERGAME.cpp; sourceTree = "<group>"; };
+		67AFDB4E27166548000129B1 /* BLOCKGAME.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BLOCKGAME.cpp; sourceTree = "<group>"; };
+		67B067762716A4EA004808BB /* SUSHI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SUSHI.cpp; sourceTree = "<group>"; };
+		67B067782717E5F5004808BB /* GENIUS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GENIUS.cpp; sourceTree = "<group>"; };
+		67B0677B27185100004808BB /* 10830.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10830.cpp; sourceTree = "<group>"; };
 		67C60F5F26A1468F00AD0077 /* clocksync.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = clocksync.cpp; sourceTree = "<group>"; };
 		67D082F426F981BC00B710C9 /* JLIS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JLIS.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +87,14 @@
 				6732C98E270B35EC003F1DCA /* PACKING.cpp */,
 				67AFDB3C2711B5FC000129B1 /* OCR.cpp */,
 				67AFDB412712A01F000129B1 /* KLIS.cpp */,
+				67AFDB432714543B000129B1 /* DRAGON.cpp */,
+				67AFDB4527146490000129B1 /* ZIMBABWE.cpp */,
+				67AFDB4727147AAB000129B1 /* RESTORE.cpp */,
+				67AFDB4A27156E73000129B1 /* TICTACTOE.cpp */,
+				67AFDB4C2715BCE7000129B1 /* NUMBERGAME.cpp */,
+				67AFDB4E27166548000129B1 /* BLOCKGAME.cpp */,
+				67B067762716A4EA004808BB /* SUSHI.cpp */,
+				67B067782717E5F5004808BB /* GENIUS.cpp */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -102,6 +119,7 @@
 		678F180626A00144002AAE97 = {
 			isa = PBXGroup;
 			children = (
+				67B0677A27185074004808BB /* baekjoon */,
 				678F181126A00144002AAE97 /* AALGGO */,
 				678F181026A00144002AAE97 /* Products */,
 			);
@@ -125,6 +143,14 @@
 				678F181226A00144002AAE97 /* main.cpp */,
 			);
 			path = AALGGO;
+			sourceTree = "<group>";
+		};
+		67B0677A27185074004808BB /* baekjoon */ = {
+			isa = PBXGroup;
+			children = (
+				67B0677B27185100004808BB /* 10830.cpp */,
+			);
+			path = baekjoon;
 			sourceTree = "<group>";
 		};
 		67C60F5C26A145FC00AD0077 /* brute */ = {
@@ -194,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67AFDB422712A01F000129B1 /* KLIS.cpp in Sources */,
+				67B0677D271BAC03004808BB /* GENIUS.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
