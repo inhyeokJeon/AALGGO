@@ -2,7 +2,7 @@
 //  quad_Tree.cpp
 //  AALGGO
 //
-//  Created by inhyeok on 2021/07/22.
+//  Created by inhyeok on 2021/09/05.
 //
 
 #include <iostream>

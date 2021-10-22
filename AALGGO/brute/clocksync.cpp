@@ -2,7 +2,7 @@
 //  clocksync.cpp
 //  AALGGO
 //
-//  Created by inhyeok on 2021/07/16.
+//  Created by inhyeok on 2021/09/03.
 //
 
 #include <iostream>

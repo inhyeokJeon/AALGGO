@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		67B0677D271BAC03004808BB /* GENIUS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67B067782717E5F5004808BB /* GENIUS.cpp */; };
+		67FF4E632722DFD3001F2E83 /* unordered_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67FF4E622722DFD3001F2E83 /* unordered_set.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,8 +54,12 @@
 		67B067762716A4EA004808BB /* SUSHI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SUSHI.cpp; sourceTree = "<group>"; };
 		67B067782717E5F5004808BB /* GENIUS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GENIUS.cpp; sourceTree = "<group>"; };
 		67B0677B27185100004808BB /* 10830.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10830.cpp; sourceTree = "<group>"; };
+		67B0677F271D062E004808BB /* MATCHORDER.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MATCHORDER.cpp; sourceTree = "<group>"; };
+		67B848BF271E4B2300F19E3C /* LUNCHBOX.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LUNCHBOX.cpp; sourceTree = "<group>"; };
+		67B848C1271E983300F19E3C /* STRJOIN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STRJOIN.cpp; sourceTree = "<group>"; };
 		67C60F5F26A1468F00AD0077 /* clocksync.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = clocksync.cpp; sourceTree = "<group>"; };
 		67D082F426F981BC00B710C9 /* JLIS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JLIS.cpp; sourceTree = "<group>"; };
+		67FF4E622722DFD3001F2E83 /* unordered_set.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unordered_set.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,19 +110,20 @@
 			path = input;
 			sourceTree = "<group>";
 		};
-		676BE15D26A92D5700D1E711 /* DivideAndCconquer */ = {
+		676BE15D26A92D5700D1E711 /* DivideAndConquer */ = {
 			isa = PBXGroup;
 			children = (
 				676BE15E26A92D8500D1E711 /* quad_Tree.cpp */,
 				6789940626B1B1AF00181665 /* fence.cpp */,
 				677D944126E6279100805867 /* fanmeeting.cpp */,
 			);
-			path = DivideAndCconquer;
+			path = DivideAndConquer;
 			sourceTree = "<group>";
 		};
 		678F180626A00144002AAE97 = {
 			isa = PBXGroup;
 			children = (
+				67FF4E612722DFB4001F2E83 /* Container */,
 				67B0677A27185074004808BB /* baekjoon */,
 				678F181126A00144002AAE97 /* AALGGO */,
 				678F181026A00144002AAE97 /* Products */,
@@ -136,9 +141,10 @@
 		678F181126A00144002AAE97 /* AALGGO */ = {
 			isa = PBXGroup;
 			children = (
+				67B0677E271BB239004808BB /* Greedy */,
 				673403CD26F0456C0024D6E8 /* input */,
 				673403CC26F045490024D6E8 /* DP */,
-				676BE15D26A92D5700D1E711 /* DivideAndCconquer */,
+				676BE15D26A92D5700D1E711 /* DivideAndConquer */,
 				67C60F5C26A145FC00AD0077 /* brute */,
 				678F181226A00144002AAE97 /* main.cpp */,
 			);
@@ -153,6 +159,16 @@
 			path = baekjoon;
 			sourceTree = "<group>";
 		};
+		67B0677E271BB239004808BB /* Greedy */ = {
+			isa = PBXGroup;
+			children = (
+				67B0677F271D062E004808BB /* MATCHORDER.cpp */,
+				67B848BF271E4B2300F19E3C /* LUNCHBOX.cpp */,
+				67B848C1271E983300F19E3C /* STRJOIN.cpp */,
+			);
+			path = Greedy;
+			sourceTree = "<group>";
+		};
 		67C60F5C26A145FC00AD0077 /* brute */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +178,14 @@
 				67C60F5F26A1468F00AD0077 /* clocksync.cpp */,
 			);
 			path = brute;
+			sourceTree = "<group>";
+		};
+		67FF4E612722DFB4001F2E83 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				67FF4E622722DFD3001F2E83 /* unordered_set.cpp */,
+			);
+			path = Container;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67B0677D271BAC03004808BB /* GENIUS.cpp in Sources */,
+				67FF4E632722DFD3001F2E83 /* unordered_set.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
