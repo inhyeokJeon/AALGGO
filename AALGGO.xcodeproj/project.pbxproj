@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		67FF4E6D27283884001F2E83 /* tsp1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67FF4E6C27283884001F2E83 /* tsp1.cpp */; };
+		67E9C0092728DD1B0018B68C /* TSP2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67E9C0082728DD1B0018B68C /* TSP2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,9 +59,10 @@
 		67B848C1271E983300F19E3C /* STRJOIN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STRJOIN.cpp; sourceTree = "<group>"; };
 		67C60F5F26A1468F00AD0077 /* clocksync.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = clocksync.cpp; sourceTree = "<group>"; };
 		67D082F426F981BC00B710C9 /* JLIS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JLIS.cpp; sourceTree = "<group>"; };
+		67E9C0082728DD1B0018B68C /* TSP2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TSP2.cpp; sourceTree = "<group>"; };
 		67FF4E622722DFD3001F2E83 /* unordered_set.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unordered_set.cpp; sourceTree = "<group>"; };
 		67FF4E642722F5E7001F2E83 /* MINASTIRITH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MINASTIRITH.cpp; sourceTree = "<group>"; };
-		67FF4E67272787EC001F2E83 /* TSP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TSP.cpp; sourceTree = "<group>"; };
+		67FF4E67272787EC001F2E83 /* TSP3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TSP3.cpp; sourceTree = "<group>"; };
 		67FF4E6C27283884001F2E83 /* tsp1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tsp1.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +103,7 @@
 				67AFDB4E27166548000129B1 /* BLOCKGAME.cpp */,
 				67B067762716A4EA004808BB /* SUSHI.cpp */,
 				67B067782717E5F5004808BB /* GENIUS.cpp */,
+				67E9C0082728DD1B0018B68C /* TSP2.cpp */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -197,7 +199,7 @@
 		67FF4E662727873D001F2E83 /* Combinatorial search */ = {
 			isa = PBXGroup;
 			children = (
-				67FF4E67272787EC001F2E83 /* TSP.cpp */,
+				67FF4E67272787EC001F2E83 /* TSP3.cpp */,
 			);
 			path = "Combinatorial search";
 			sourceTree = "<group>";
@@ -258,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67FF4E6D27283884001F2E83 /* tsp1.cpp in Sources */,
+				67E9C0092728DD1B0018B68C /* TSP2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

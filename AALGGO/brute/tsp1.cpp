@@ -11,7 +11,7 @@
 #include <fstream>
 using namespace std;
  
-const int MAX = 8 //3<=n<=8
+const int MAX = 8; //3<=n<=8
 
 ifstream fin("tsp.txt");
 
