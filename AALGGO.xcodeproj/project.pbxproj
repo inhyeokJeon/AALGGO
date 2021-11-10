@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		67E9C0092728DD1B0018B68C /* TSP2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67E9C0082728DD1B0018B68C /* TSP2.cpp */; };
+		67919BAA273A8F08004E1084 /* CANADATRIP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67919BA9273A8F08004E1084 /* CANADATRIP.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,8 @@
 		673403CE26F0464D0024D6E8 /* wildcard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wildcard.cpp; sourceTree = "<group>"; };
 		673403D026F0E8750024D6E8 /* wildcard_dp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wildcard_dp.cpp; sourceTree = "<group>"; };
 		673403D226F1FA930024D6E8 /* LIS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LIS.cpp; sourceTree = "<group>"; };
+		6761651E27390DD1000A42C9 /* ALLERGY.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALLERGY.cpp; sourceTree = "<group>"; };
+		676165202739410A000A42C9 /* KAKURO2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KAKURO2.cpp; sourceTree = "<group>"; };
 		676BE15E26A92D8500D1E711 /* quad_Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quad_Tree.cpp; sourceTree = "<group>"; };
 		677D944126E6279100805867 /* fanmeeting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fanmeeting.cpp; sourceTree = "<group>"; };
 		6789940626B1B1AF00181665 /* fence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fence.cpp; sourceTree = "<group>"; };
@@ -36,7 +38,11 @@
 		678F181926A0041C002AAE97 /* sopung.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sopung.cpp; sourceTree = "<group>"; };
 		678F182026A0324F002AAE97 /* BOARDCOVER.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOARDCOVER.cpp; sourceTree = "<group>"; };
 		678F182426A08686002AAE97 /* temp_board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = temp_board.cpp; sourceTree = "<group>"; };
+		67919BA5273A6DBF004E1084 /* DARPA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DARPA.cpp; sourceTree = "<group>"; };
+		67919BA7273A7BDB004E1084 /* ARCTIC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ARCTIC.cpp; sourceTree = "<group>"; };
+		67919BA9273A8F08004E1084 /* CANADATRIP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CANADATRIP.cpp; sourceTree = "<group>"; };
 		6791ADDB26F9A50F00488569 /* PI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PI.cpp; sourceTree = "<group>"; };
+		6791C1412730C3C500D5F9E6 /* BOARDCOVER2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOARDCOVER2.cpp; sourceTree = "<group>"; };
 		67968E5127027AF9005BD468 /* TILING2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TILING2.cpp; sourceTree = "<group>"; };
 		67968E5327028979005BD468 /* TRIPATHCNT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TRIPATHCNT.cpp; sourceTree = "<group>"; };
 		67968E5527029BBC005BD468 /* SNAIL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SNAIL.cpp; sourceTree = "<group>"; };
@@ -146,6 +152,7 @@
 		678F181126A00144002AAE97 /* AALGGO */ = {
 			isa = PBXGroup;
 			children = (
+				67919BA4273A6DA9004E1084 /* decision problem */,
 				67FF4E662727873D001F2E83 /* Combinatorial search */,
 				67B0677E271BB239004808BB /* Greedy */,
 				673403CD26F0456C0024D6E8 /* input */,
@@ -155,6 +162,16 @@
 				678F181226A00144002AAE97 /* main.cpp */,
 			);
 			path = AALGGO;
+			sourceTree = "<group>";
+		};
+		67919BA4273A6DA9004E1084 /* decision problem */ = {
+			isa = PBXGroup;
+			children = (
+				67919BA5273A6DBF004E1084 /* DARPA.cpp */,
+				67919BA7273A7BDB004E1084 /* ARCTIC.cpp */,
+				67919BA9273A8F08004E1084 /* CANADATRIP.cpp */,
+			);
+			path = "decision problem";
 			sourceTree = "<group>";
 		};
 		67B0677A27185074004808BB /* baekjoon */ = {
@@ -200,6 +217,9 @@
 			isa = PBXGroup;
 			children = (
 				67FF4E67272787EC001F2E83 /* TSP3.cpp */,
+				6791C1412730C3C500D5F9E6 /* BOARDCOVER2.cpp */,
+				6761651E27390DD1000A42C9 /* ALLERGY.cpp */,
+				676165202739410A000A42C9 /* KAKURO2.cpp */,
 			);
 			path = "Combinatorial search";
 			sourceTree = "<group>";
@@ -260,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67E9C0092728DD1B0018B68C /* TSP2.cpp in Sources */,
+				67919BAA273A8F08004E1084 /* CANADATRIP.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
