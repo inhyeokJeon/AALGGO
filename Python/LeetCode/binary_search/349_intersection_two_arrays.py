@@ -6,6 +6,5 @@ class Solution:
         set2 = set(nums2)
         return list(set1.intersection(set2))
 
-
 temp = Solution()
 print(temp.intersection([4,9,5], [9,4,9,8,4]))

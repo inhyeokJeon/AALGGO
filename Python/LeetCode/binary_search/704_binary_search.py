@@ -9,7 +9,6 @@ class Solution:
             return index
         else:
             return -1
-
 #         if len(nums) == 1:
 #             if nums[0] == target:
 #                 return 0
